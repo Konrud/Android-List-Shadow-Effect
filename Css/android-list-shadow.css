@@ -1,0 +1,15 @@
+﻿
+/*---------------------------------------------------
+    Inspired By Lea Verou's presentation from:  "More CSS Secrets: Another 10 things you may not know about CSS" at the W3Conf 2013
+    link to the video: https://www.youtube.com/watch?v=3ikye7Qc7Ak&index=1&list=LLkVQ40cQJwxLZSlLCBZO_oA
+    Lea Verou's site: http://lea.verou.me/
+---------------------------------------------------*/
+
+/*This is used along with JQuery code which add class to the element at the top or at the bottom*/
+.android-list-shadow {
+    background: radial-gradient(at center top, rgba(82, 160, 255, 0.30), transparent 70%),
+               radial-gradient(at center bottom, rgba(82, 160, 255, 0.30), transparent 70%) bottom;
+    background-size: 100% 1%, 100% 1%;
+    background-attachment: local, local;
+    background-repeat: no-repeat;
+}
